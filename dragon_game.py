@@ -22,8 +22,6 @@ class Dragon:
         self.n = int(input('Enter N value for N*N Game (N > 2): '))
 
     def initialize(self):
-        #enter = input("Press Enter to start!")
-        #self.n = int(input('Enter N value for N*N Game (N > 2): '))
         self.tables = []
         self.moves = []
         i = 0
